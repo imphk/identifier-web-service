@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Identifier</string>
+    <string name="label">Possible Identifier</string>
+    <string name="input">Type</string>
+    <string name="validateBtn">Validate</string>
+    <string name="output">Validation Result</string>
+    <string name="valid">Valid</string>
+    <string name="invalid">Invalid</string>
+</resources>

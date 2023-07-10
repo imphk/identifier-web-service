@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app"
+    name=":app"
+    type="APP"
+    maven="Identifier:app:"
+    gradle="7.1.3"
+    buildFolder="build"
+    bootClassPath="/home/pedro/workspace/Android/Sdk/platforms/android-30/android.jar:/home/pedro/workspace/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-30"
+    neverShrinking="true">
+  <lintOptions
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

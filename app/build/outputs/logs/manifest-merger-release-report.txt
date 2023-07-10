@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/pedro/.gradle/caches/transforms-3/739e9460479a19336832249dde48f4c5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/pedro/.gradle/caches/transforms-3/24e3506cef49de6be1def85f3d670870/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/pedro/.gradle/caches/transforms-3/9dc5bc318862eee2e8232354985e1028/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/pedro/.gradle/caches/transforms-3/710008190c1b1d654d324835f6c184fd/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/pedro/.gradle/caches/transforms-3/9bef606dedcb129adecec22d94a44f0c/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pedro/.gradle/caches/transforms-3/245ac14a04b0eac3941ac46b29cf6fa5/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pedro/.gradle/caches/transforms-3/060e8e1907c92c179f34c52a3c4a2817/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/pedro/.gradle/caches/transforms-3/5da9648de50c9ac585df7afdfbc82f0d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pedro/.gradle/caches/transforms-3/7ba4b5c664b600952f4510985d58136a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pedro/.gradle/caches/transforms-3/9f8cdb3fbaf3e6b7c8cbab3f3db31769/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/pedro/.gradle/caches/transforms-3/3f7f25254fbeb05dc4bafd6eec260972/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /home/pedro/.gradle/caches/transforms-3/0e92379fed084ea987d7aee4f67aa047/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pedro/.gradle/caches/transforms-3/63e57cab890aeee2a024e7c62d880fe4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/pedro/.gradle/caches/transforms-3/d8bf841da9e08d0656e4a71550bb7076/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/pedro/.gradle/caches/transforms-3/073863892cec839722bf022420014adc/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/pedro/.gradle/caches/transforms-3/d3aaeb4e5f8f333a0e198769f5e46719/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/pedro/.gradle/caches/transforms-3/4e5e36a86c4a7fcfcbcaf593c2301eaf/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pedro/.gradle/caches/transforms-3/6b32f77863316fdcf23a211e868c65b2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/pedro/.gradle/caches/transforms-3/4cd9dbe90e0d512187c4a9e19de190c1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pedro/.gradle/caches/transforms-3/4451d131d631bb489195ea634ac44ec8/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/pedro/.gradle/caches/transforms-3/a1747d3673c659bce4a6821bbeed6529/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/pedro/.gradle/caches/transforms-3/0f909baba953fe62fcb07ccde8ea1538/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pedro/.gradle/caches/transforms-3/1efa7590870266af4c5631a65fddf7e0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/pedro/.gradle/caches/transforms-3/9bfdb54ae7fb57dc2f81a69f4b126fef/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:6:5-23:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/pedro/.gradle/caches/transforms-3/739e9460479a19336832249dde48f4c5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/pedro/.gradle/caches/transforms-3/739e9460479a19336832249dde48f4c5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0] /home/pedro/.gradle/caches/transforms-3/0e92379fed084ea987d7aee4f67aa047/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /home/pedro/.gradle/caches/transforms-3/0e92379fed084ea987d7aee4f67aa047/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pedro/.gradle/caches/transforms-3/6b32f77863316fdcf23a211e868c65b2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pedro/.gradle/caches/transforms-3/6b32f77863316fdcf23a211e868c65b2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /home/pedro/.gradle/caches/transforms-3/0e92379fed084ea987d7aee4f67aa047/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:10:9-54
+	tools:targetApi
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:13:9-29
+	android:icon
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:12:9-40
+activity#app.identifier.MainActivity
+ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:exported
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/pedro/.gradle/caches/transforms-3/739e9460479a19336832249dde48f4c5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/pedro/.gradle/caches/transforms-3/739e9460479a19336832249dde48f4c5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/pedro/.gradle/caches/transforms-3/24e3506cef49de6be1def85f3d670870/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /home/pedro/.gradle/caches/transforms-3/24e3506cef49de6be1def85f3d670870/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/pedro/.gradle/caches/transforms-3/9dc5bc318862eee2e8232354985e1028/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/pedro/.gradle/caches/transforms-3/9dc5bc318862eee2e8232354985e1028/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/pedro/.gradle/caches/transforms-3/710008190c1b1d654d324835f6c184fd/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/pedro/.gradle/caches/transforms-3/710008190c1b1d654d324835f6c184fd/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/pedro/.gradle/caches/transforms-3/9bef606dedcb129adecec22d94a44f0c/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /home/pedro/.gradle/caches/transforms-3/9bef606dedcb129adecec22d94a44f0c/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pedro/.gradle/caches/transforms-3/245ac14a04b0eac3941ac46b29cf6fa5/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pedro/.gradle/caches/transforms-3/245ac14a04b0eac3941ac46b29cf6fa5/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pedro/.gradle/caches/transforms-3/060e8e1907c92c179f34c52a3c4a2817/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pedro/.gradle/caches/transforms-3/060e8e1907c92c179f34c52a3c4a2817/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pedro/.gradle/caches/transforms-3/5da9648de50c9ac585df7afdfbc82f0d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pedro/.gradle/caches/transforms-3/5da9648de50c9ac585df7afdfbc82f0d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pedro/.gradle/caches/transforms-3/7ba4b5c664b600952f4510985d58136a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pedro/.gradle/caches/transforms-3/7ba4b5c664b600952f4510985d58136a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pedro/.gradle/caches/transforms-3/9f8cdb3fbaf3e6b7c8cbab3f3db31769/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pedro/.gradle/caches/transforms-3/9f8cdb3fbaf3e6b7c8cbab3f3db31769/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/pedro/.gradle/caches/transforms-3/3f7f25254fbeb05dc4bafd6eec260972/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pedro/.gradle/caches/transforms-3/3f7f25254fbeb05dc4bafd6eec260972/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /home/pedro/.gradle/caches/transforms-3/0e92379fed084ea987d7aee4f67aa047/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/pedro/.gradle/caches/transforms-3/0e92379fed084ea987d7aee4f67aa047/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pedro/.gradle/caches/transforms-3/63e57cab890aeee2a024e7c62d880fe4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pedro/.gradle/caches/transforms-3/63e57cab890aeee2a024e7c62d880fe4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/pedro/.gradle/caches/transforms-3/d8bf841da9e08d0656e4a71550bb7076/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/pedro/.gradle/caches/transforms-3/d8bf841da9e08d0656e4a71550bb7076/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/pedro/.gradle/caches/transforms-3/073863892cec839722bf022420014adc/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/pedro/.gradle/caches/transforms-3/073863892cec839722bf022420014adc/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/pedro/.gradle/caches/transforms-3/d3aaeb4e5f8f333a0e198769f5e46719/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/pedro/.gradle/caches/transforms-3/d3aaeb4e5f8f333a0e198769f5e46719/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/pedro/.gradle/caches/transforms-3/4e5e36a86c4a7fcfcbcaf593c2301eaf/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/pedro/.gradle/caches/transforms-3/4e5e36a86c4a7fcfcbcaf593c2301eaf/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pedro/.gradle/caches/transforms-3/6b32f77863316fdcf23a211e868c65b2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pedro/.gradle/caches/transforms-3/6b32f77863316fdcf23a211e868c65b2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/pedro/.gradle/caches/transforms-3/4cd9dbe90e0d512187c4a9e19de190c1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/pedro/.gradle/caches/transforms-3/4cd9dbe90e0d512187c4a9e19de190c1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pedro/.gradle/caches/transforms-3/4451d131d631bb489195ea634ac44ec8/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pedro/.gradle/caches/transforms-3/4451d131d631bb489195ea634ac44ec8/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/pedro/.gradle/caches/transforms-3/a1747d3673c659bce4a6821bbeed6529/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/pedro/.gradle/caches/transforms-3/a1747d3673c659bce4a6821bbeed6529/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/pedro/.gradle/caches/transforms-3/0f909baba953fe62fcb07ccde8ea1538/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/pedro/.gradle/caches/transforms-3/0f909baba953fe62fcb07ccde8ea1538/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pedro/.gradle/caches/transforms-3/1efa7590870266af4c5631a65fddf7e0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pedro/.gradle/caches/transforms-3/1efa7590870266af4c5631a65fddf7e0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/pedro/.gradle/caches/transforms-3/9bfdb54ae7fb57dc2f81a69f4b126fef/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/pedro/.gradle/caches/transforms-3/9bfdb54ae7fb57dc2f81a69f4b126fef/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+		ADDED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pedro/workspace/posgrad/toy-projects/web-service/identifier/app/src/main/AndroidManifest.xml
