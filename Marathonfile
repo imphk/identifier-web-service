@@ -1,0 +1,11 @@
+name: "Identifier"
+outputDir: "reports/"
+vendorConfiguration:
+  type: "Android"
+  autoGrantPermission: true
+  applicationApk: "app-debug.apk"
+  testApplicationApk: "app-debug-androidTest.apk"
+poolingStrategy:
+  type: "device-model"
+isCodeCoverageEnabled: true
+debug: true
