@@ -47,6 +47,6 @@ jobs:
 
       - name: Sonar Analysis
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: ./gradlew test jacocoTestReport -PcoverageDir=/home/runner/work/identifier-web-service/identifier-web-service/reports/device-files sonar
