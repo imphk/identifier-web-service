@@ -3,8 +3,8 @@ outputDir: "reports/"
 vendorConfiguration:
   type: "Android"
   autoGrantPermission: true
-  applicationApk: "app/build/outputs/apk/debug/app-debug.apk"
-  testApplicationApk: "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk"
+  applicationApk: "app-debug.apk"
+  testApplicationApk: "app-debug-androidTest.apk"
 poolingStrategy:
   type: "device-model"
 isCodeCoverageEnabled: true

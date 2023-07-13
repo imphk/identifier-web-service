@@ -4,7 +4,7 @@ on:
     branches:
       - main
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [ opened, synchronize, reopened ]
 jobs:
   build:
     name: Build and analyze
@@ -34,7 +34,7 @@ jobs:
         run: ./gradlew clean build assemble assembleAndroidTest
 
       - name: Create zip files with apk
-        run: zip marathon-${{ github.sha }}.zip Marathonfile app/build/outputs/apk/debug/app-debug.apk app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+        run: zip -j marathon-${{ github.sha }}.zip Marathonfile app/build/outputs/apk/debug/app-debug.apk app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
 
       - name: Execute marathon-web-service
         run: python execute.py ${{ github.sha }}
@@ -44,3 +44,9 @@ jobs:
 
       - name: Display information
         run: ls -la
+
+      - name: Sonar Analysis
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+            run: ./gradlew test jacocoTestReport -PcoverageDir=/home/runner/work/identifier-web-service/identifier-web-service/ sonar

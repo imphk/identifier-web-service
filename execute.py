@@ -20,16 +20,15 @@ filename = 'marathon-' + id + '.zip'
 
 #Upload
 file_path = '/home/runner/work/identifier-web-service/identifier-web-service/' + filename
-#file_path = '/home/pedro/' + filename
 files = {'file':open(file_path, 'rb')}
-response = requests.post("https://ade4-2804-7f3-4b8f-b4b2-9426-8cc6-2270-d15e.ngrok-free.app/api/upload", files=files, params=PARAM)
+response = requests.post("https://dda8-2804-7f3-4b8f-b4b2-175b-2d3d-17db-2598.ngrok-free.app/api/upload", files=files, params=PARAM)
 print(response.text)
 
-response = requests.get("https://ade4-2804-7f3-4b8f-b4b2-9426-8cc6-2270-d15e.ngrok-free.app/api/run", params=PARAM)
+response = requests.get("https://dda8-2804-7f3-4b8f-b4b2-175b-2d3d-17db-2598.ngrok-free.app/api/run", params=PARAM)
 print(response.text)
 
 #Download
 report_filename = 'report-' + id + '.zip'
-response = requests.get("https://ade4-2804-7f3-4b8f-b4b2-9426-8cc6-2270-d15e.ngrok-free.app/api/download/report", params=PARAM)
+response = requests.get("https://dda8-2804-7f3-4b8f-b4b2-175b-2d3d-17db-2598.ngrok-free.app/api/download/report", params=PARAM)
 open(report_filename, 'wb').write(response.content)
 print(response)
