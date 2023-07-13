@@ -3,16 +3,13 @@ import sys, os
 import uuid
 
 if len(sys.argv) > 1:
-    print(len(sys.argv))
     id = sys.argv[1] #chave recebida do github ou uuid
 else:
     id = uuid.uuid4().hex
 
-    print(id)
-
 URL = 'http://localhost:5000/api'
 ENDPOINT = 'download'
-PARAM = {'api_key': '1234', 'id': id}
+PARAM = {'api_key': '903e368a-4f5d-445f-9b64-b4586519a388', 'id': id}
 
 #print(uuid.uuid4())
 
