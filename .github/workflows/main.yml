@@ -43,10 +43,10 @@ jobs:
         run: unzip report-${{ github.sha }}.zip
 
       - name: Display information
-        run: ls -la
+        run: ls -la reports/
 
       - name: Sonar Analysis
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: ./gradlew test jacocoTestReport -PcoverageDir=/home/runner/work/identifier-web-service/identifier-web-service/reports/device-files/ sonar
+        run: ./gradlew test jacocoTestReport -PcoverageDir=/home/runner/work/identifier-web-service/identifier-web-service/reports/device-files sonar
