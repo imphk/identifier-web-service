@@ -42,14 +42,10 @@ jobs:
       - name: Prepare report for coverage analysis
         run: unzip report-${{ github.sha }}.zip
 
-      - name: Copy files
-        run: |
-          cp -r reports/device-files/ .
-
       - name: Display folder information
-        run: ls -la
+        run: ls
       - name: Sonar Analysis
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: ./gradlew test jacocoTestReport -PcoverageDir=/home/runner/work/identifier-web-service/identifier-web-service/device-files sonar
+        run: ./gradlew test jacocoTestReport -PcoverageDir=/home/runner/work/identifier-web-service/identifier-web-service/reports/device-files sonar
