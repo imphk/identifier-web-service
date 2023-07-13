@@ -1,6 +1,6 @@
 buildscript {
 
-    ext.jacocoVersion='0.8.7'
+    ext.jacocoVersion = '0.8.7'
 
     repositories {
         google()
@@ -18,9 +18,9 @@ plugins {
 
 sonarqube {
     properties {
-//        property "sonar.projectKey", "imphk_identifier-web-service"
-//        property "sonar.organization", "imphk"
-//        property "sonar.host", "https://sonarcloud.io"
+        property "sonar.projectKey", "imphk_identifier-web-service"
+        property "sonar.organization", "imphk"
+        property "sonar.host", "https://sonarcloud.io"
 
 //        property "sonar.sources", "src/main/java"
 //        property "sonar.binaries", "build/intermediates/classes/debug"
@@ -39,7 +39,7 @@ allprojects {
     configurations.all {
         resolutionStrategy {
             eachDependency { details ->
-                if(details.requested.group == 'org.jacoco') {
+                if (details.requested.group == 'org.jacoco') {
                     details.useVersion jacocoVersion
                 }
             }
