@@ -18,9 +18,9 @@ plugins {
 
 sonarqube {
     properties {
-        property "sonar.projectKey", "imphk_identifier-web-service"
-        property "sonar.organization", "imphk"
-        property "sonar.host", "https://sonarcloud.io"
+//        property "sonar.projectKey", "imphk_identifier-web-service"
+//        property "sonar.organization", "imphk"
+//        property "sonar.host", "https://sonarcloud.io"
 
 //        property "sonar.sources", "src/main/java"
 //        property "sonar.binaries", "build/intermediates/classes/debug"

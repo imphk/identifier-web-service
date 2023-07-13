@@ -1,0 +1,308 @@
+07-13 08:41:57.028 21845-21860/? W/Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+07-13 08:41:57.057 1985-3004/? I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=app.identifier.test/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras)} from uid 10746
+07-13 08:41:57.075 923-988/? E/ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+07-13 08:41:57.091 21494-21494/? W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@448329f
+07-13 08:41:57.156 1985-3004/? I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=app.identifier/.MainActivity} from uid 10746
+07-13 08:41:57.188 21845-21845/? W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@3b400ce
+07-13 08:41:57.379 21866-21866/? I/MediaCodec: (0xb1343000) init name(OMX.qcom.video.encoder.avc)
+07-13 08:41:57.385 21866-21873/? I/OMXClient: IOmx service obtained
+07-13 08:41:57.385 1211-2408/? I/OMXMaster: makeComponentInstance(OMX.qcom.video.encoder.avc) in omx@1.0-service process
+07-13 08:41:57.392 1211-2408/? I/OMX-VENC: Video encode perflock acquired,handle=195
+07-13 08:41:57.403 1211-2408/? I/OMX-VENC: Component_init : OMX.qcom.video.encoder.avc : return = 0x0
+07-13 08:41:57.403 21866-21872/? I/MediaCodec: (0xb1343000) Component Allocated (OMX.qcom.video.encoder.avc)
+07-13 08:41:57.405 21866-21866/? I/MediaCodec: (0xb1343000) configure surface(0x0) crypto(0x0) flags(1)
+07-13 08:41:57.406 21866-21866/? D/MediaCodec: (0xb1343000) configure format: AMessage(what = 0x00000000) = {
+07-13 08:41:57.406 21866-21866/? D/MediaCodec:       int32_t width = 720
+07-13 08:41:57.406 21866-21866/? D/MediaCodec:       int32_t height = 1280
+07-13 08:41:57.406 21866-21866/? D/MediaCodec:       string mime = "video/avc"
+07-13 08:41:57.406 21866-21866/? D/MediaCodec:       int32_t color-format = 2130708361
+07-13 08:41:57.406 21866-21866/? D/MediaCodec:       int32_t bitrate = 1000000
+07-13 08:41:57.406 21866-21866/? D/MediaCodec:       float frame-rate = 60.000004
+07-13 08:41:57.406 21866-21866/? D/MediaCodec:       int32_t i-frame-interval = 10
+07-13 08:41:57.406 21866-21866/? D/MediaCodec:     }
+07-13 08:41:57.406 21866-21866/? D/MediaCodec: [ 07-13 08:41:57.406  1211:
+07-13 08:41:57.406 21866-21866/? D/MediaCodec:  1459 E/OMXNodeInstance ]
+07-13 08:41:57.406 21866-21866/? D/MediaCodec: setParameter(0xaab7b1c4:qcom.encoder.avc, OMX.google.android.index.allocateNativeHandle(0x7f00005d): Output:1 en=0) ERROR: UnsupportedSetting(0x80001019)
+07-13 08:41:57.406 1211-1459/? W/OMXNodeInstance: [0xaab7b1c4:qcom.encoder.avc] component does not support metadata mode; using fallback
+07-13 08:41:57.406 21866-21873/? I/ExtendedACodec: setupVideoEncoder()
+07-13 08:41:57.406 21866-21873/? I/ACodec: [OMX.qcom.video.encoder.avc] setupVideoEncoder mime(video/avc) colorFormat(7f000789)
+07-13 08:41:57.407 21866-21873/? W/OMXUtils: do not know color format 0x7fa30c04 = 2141391876
+07-13 08:41:57.407 21866-21873/? W/OMXUtils: do not know color format 0x7f000789 = 2130708361
+07-13 08:41:57.409 21866-21873/? I/ACodec: width height(720x1280) stride(720) sliceHeight(1280)
+07-13 08:41:57.414 21866-21873/? I/ACodec: bitrate(1000000) framerate(60.000004) compressionFormat(7)
+07-13 08:41:57.418 21866-21873/? I/ACodec: setupAVCEncoderParameters with [profile: Baseline] [level: Level32]
+07-13 08:41:57.420 21866-21873/? I/ACodec: [OMX.qcom.video.encoder.avc] cannot encode HDR static metadata. Ignoring.
+07-13 08:41:57.420 21866-21873/? I/ACodec: setupVideoEncoder succeeded
+07-13 08:41:57.421 21866-21873/? I/ExtendedACodec: [OMX.qcom.video.encoder.avc] configure, AMessage : AMessage(what = 'conf', target = 1) = {
+07-13 08:41:57.421 21866-21873/? I/ExtendedACodec:   int32_t width = 720
+07-13 08:41:57.421 21866-21873/? I/ExtendedACodec:   int32_t height = 1280
+07-13 08:41:57.421 21866-21873/? I/ExtendedACodec:   string mime = "video/avc"
+07-13 08:41:57.421 21866-21873/? I/ExtendedACodec:   int32_t color-format = 2130708361
+07-13 08:41:57.421 21866-21873/? I/ExtendedACodec:   int32_t bitrate = 1000000
+07-13 08:41:57.421 21866-21873/? I/ExtendedACodec:   float frame-rate = 60.000004
+07-13 08:41:57.421 21866-21873/? I/ExtendedACodec:   int32_t i-frame-interval = 10
+07-13 08:41:57.421 21866-21873/? I/ExtendedACodec:   int32_t encoder = 1
+07-13 08:41:57.421 21866-21873/? I/ExtendedACodec: }
+07-13 08:41:57.423 21866-21873/? W/OMXUtils: do not know color format 0x7f000789 = 2130708361
+07-13 08:41:57.423 1211-1459/? E/OMXNodeInstance: getConfig(0xaab7b1c4:qcom.encoder.avc, ConfigLatency(0x6f800005)) ERROR: UnsupportedIndex(0x8000101a)
+07-13 08:41:57.428 21845-21845/? D/LifecycleMonitor: Lifecycle status change: app.identifier.MainActivity@7db5ba6 in: PRE_ON_CREATE
+07-13 08:41:57.429 21845-21845/? D/LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:41:57.430 21845-21845/? D/LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:41:57.433 21866-21873/? W/ExtendedACodec: Failed to get extension for extradata parameter
+07-13 08:41:57.436 1211-1459/? E/OMXNodeInstance: getConfig(0xaab7b1c4:qcom.encoder.avc, ??(0x7f000062)) ERROR: UnsupportedSetting(0x80001019)
+07-13 08:41:57.438 1211-2408/? E/OMXNodeInstance: getParameter(0xaab7b1c4:qcom.encoder.avc, ParamConsumerUsageBits(0x6f800004)) ERROR: UnsupportedIndex(0x8000101a)
+07-13 08:41:57.439 1211-2408/? D/GraphicBufferSource: setting dataspace: 0x104, acquired=0
+07-13 08:41:57.439 1211-2408/? E/OMXNodeInstance: getParameter(0xaab7b1c4:qcom.encoder.avc, ParamConsumerUsageBits(0x6f800004)) ERROR: UnsupportedIndex(0x8000101a)
+07-13 08:41:57.440 1211-2408/? D/GraphicBufferSource: requesting color aspects (R:2(Limited), P:1(BT709_5), M:1(BT709_5), T:3(SMPTE170M))
+07-13 08:41:57.440 21866-21866/? I/MediaCodec: (0xb1343000) start
+07-13 08:41:57.440 21866-21866/? I/MediaCodec: [ 07-13 08:41:57.445   896:  896 W/Ashm
+07-13 08:41:57.440 21866-21866/? I/MediaCodec: emAllocator ]
+07-13 08:41:57.440 21866-21866/? I/MediaCodec: ashmem_create_region(8) returning hidl_memory(0xaee16150, 8)
+07-13 08:41:57.454 896-896/? I/chatty: uid=1000(system) allocator@1.0-s identical 5 lines
+07-13 08:41:57.455 896-896/? W/AshmemAllocator: ashmem_create_region(8) returning hidl_memory(0xaee16150, 8)
+07-13 08:41:57.455 21845-21845/? W/app.identifier: Accessing hidden method Landroid/graphics/drawable/Drawable;->getOpticalInsets()Landroid/graphics/Insets; (light greylist, linking)
+07-13 08:41:57.455 21845-21845/? W/app.identifier: Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+07-13 08:41:57.455 21845-21845/? W/app.identifier: Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+07-13 08:41:57.455 21845-21845/? W/app.identifier: Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+07-13 08:41:57.455 896-896/? W/AshmemAllocator: ashmem_create_region(8) returning hidl_memory(0xaee16150, 8)
+07-13 08:41:57.455 21845-21845/? W/app.identifier: Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+07-13 08:41:57.456 896-896/? W/AshmemAllocator: ashmem_create_region(8) returning hidl_memory(0xaee16150, 8)
+07-13 08:41:57.460 896-896/? W/AshmemAllocator: ashmem_create_region(1382400) returning hidl_memory(0xaee16150, 1382400)
+07-13 08:41:57.462 896-896/? I/chatty: uid=1000(system) allocator@1.0-s identical 2 lines
+07-13 08:41:57.462 896-896/? W/AshmemAllocator: ashmem_create_region(1382400) returning hidl_memory(0xaee16150, 1382400)
+07-13 08:41:57.463 21866-21872/? I/MediaCodec: (0xb1343000) kWhatStartCompleted
+07-13 08:41:57.467 938-2413/? E/: HpInterface: Wrong interface type.
+07-13 08:41:57.462 938-938/? W/Binder:938_4: type=1400 audit(0.0:226): avc: denied { call } for uid=1000 scontext=u:r:surfaceflinger:s0 tcontext=u:r:mediacodec:s0 tclass=binder permissive=0
+07-13 08:41:57.480 21866-21871/? W/H2BGraphicBufferProducer: getConsumerUsage is not fully supported
+07-13 08:41:57.481 21866-21871/? W/H2BGraphicBufferProducer: getConsumerUsage is not fully supported
+07-13 08:41:57.481 938-938/? E/HWComposer: getHdrCapabilities failed for display -1: Invalid display
+07-13 08:41:57.484 1211-2408/? W/GraphicBufferSource: released unpopulated slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+07-13 08:41:57.485 938-938/? E/HWComposer: getSupportedPerFrameMetadata failed for display -1: Invalid display
+07-13 08:41:57.513 1211-2408/? D/GraphicBufferSource: got buffer with new dataSpace #104
+07-13 08:41:57.513 1211-21877/? D/OMXNodeInstance: Codec resolved it to (R:2(??), P:3(??), M:3(??), T:3(??)) err=0(NO_ERROR)
+07-13 08:41:57.513 21866-21873/? D/ACodec: dataspace changed to 0x10c10000 (R:2(Limited), P:3(BT601_6_625), M:3(BT601_6), T:3(SMPTE170M)) (R:2(Limited), S:2(BT601_625), T:3(SMPTE_170M))
+07-13 08:41:57.514 1211-21875/? I/OMX-VENC: open Color conv forW: 720, H: 1280
+07-13 08:41:57.528 21866-21872/? D/MediaCodec: (0xb1343000) [OMX.qcom.video.encoder.avc] output format changed to: AMessage(what = 0x00000000) = {
+07-13 08:41:57.528 21866-21872/? D/MediaCodec:       int32_t bitrate = 1000000
+07-13 08:41:57.528 21866-21872/? D/MediaCodec:       int32_t max-bitrate = 1000000
+07-13 08:41:57.528 21866-21872/? D/MediaCodec:       int32_t frame-rate = 60
+07-13 08:41:57.528 21866-21872/? D/MediaCodec:       string mime = "video/avc"
+07-13 08:41:57.528 21866-21872/? D/MediaCodec:       int32_t width = 720
+07-13 08:41:57.528 21866-21872/? D/MediaCodec:       int32_t height = 1280
+07-13 08:41:57.528 21866-21872/? D/MediaCodec:       int32_t color-range = 2
+07-13 08:41:57.528 21866-21872/? D/MediaCodec:       int32_t color-standard = 2
+07-13 08:41:57.528 21866-21872/? D/MediaCodec:       int32_t color-transfer = 3
+07-13 08:41:57.528 21866-21872/? D/MediaCodec:     }
+07-13 08:41:57.528 21866-21866/? I/MPEG4Writer: limits: 4294967295/0 bytes/u
+07-13 08:41:57.528 21866-21866/? I/MPEG4Writer: s, bit rate: -1 bps and the estimated moov size 3320 bytes
+07-13 08:41:57.539 21866-21881/? I/MPEG4Writer: setStartTimestampUs: 1205610811
+07-13 08:41:57.539 21866-21881/? I/MPEG4Writer: Earliest track starting time: 1205610811
+07-13 08:41:57.545 21845-21845/? W/app.identifier: Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
+07-13 08:41:57.566 21845-21845/? W/app.identifier: Accessing hidden method Landroid/view/View;->getAccessibilityDelegate()Landroid/view/View$AccessibilityDelegate; (light greylist, linking)
+07-13 08:41:57.654 21845-21845/? W/app.identifier: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+07-13 08:41:57.657 21845-21845/? W/app.identifier: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+07-13 08:41:57.924 21845-21845/? D/LifecycleMonitor: Lifecycle status change: app.identifier.MainActivity@7db5ba6 in: CREATED
+07-13 08:41:57.924 21845-21845/? D/LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:41:57.924 21845-21845/? D/LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:41:57.938 21845-21845/? D/LifecycleMonitor: Lifecycle status change: app.identifier.MainActivity@7db5ba6 in: STARTED
+07-13 08:41:57.938 21845-21845/? D/LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:41:57.939 21845-21845/? D/LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:41:57.943 21845-21845/? D/LifecycleMonitor: Lifecycle status change: app.identifier.MainActivity@7db5ba6 in: RESUMED
+07-13 08:41:57.944 21845-21845/? D/LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:41:57.944 21845-21845/? D/LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:41:57.963 21845-21845/? D/OpenGLRenderer: Skia GL Pipeline
+07-13 08:41:57.991 21845-21860/? D/EventInjectionStrategy: Creating injection strategy with input manager.
+07-13 08:41:57.992 21845-21860/? W/app.identifier: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (light greylist, reflection)
+07-13 08:41:57.992 21845-21860/? W/app.identifier: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (light greylist, reflection)
+07-13 08:41:57.992 21845-21860/? W/app.identifier: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (light greylist, reflection)
+07-13 08:41:58.045 21845-21845/? W/app.identifier: Accessing hidden method Landroid/graphics/Insets;->of(IIII)Landroid/graphics/Insets; (light greylist, linking)
+07-13 08:41:58.088 21845-21883/? I/Adreno: QUALCOMM build                   : 7adeec4758, I21281c58c8
+07-13 08:41:58.088 21845-21883/? I/Adreno: Build Date                       : 12/27/18
+07-13 08:41:58.088 21845-21883/? I/Adreno: OpenGL ES Shader Compiler Version: EV031.25.03.02
+07-13 08:41:58.088 21845-21883/? I/Adreno: Local Branch                     : 
+07-13 08:41:58.088 21845-21883/? I/Adreno: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.7.5.R1.09.00.00.464.037
+07-13 08:41:58.088 21845-21883/? I/Adreno: Remote Branch                    : NONE
+07-13 08:41:58.088 21845-21883/? I/Adreno: Reconstruct Branch               : NOTHING
+07-13 08:41:58.088 21845-21883/? I/Adreno: Build Config                     : S L 6.0.7 AArch32
+07-13 08:41:58.095 21845-21883/? I/Adreno: PFP: 0x005ff110, ME: 0x005ff066
+07-13 08:41:58.104 21845-21883/? I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+07-13 08:41:58.105 21845-21883/? I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+07-13 08:41:58.106 21845-21883/? I/OpenGLRenderer: Initialized EGL, version 1.4
+07-13 08:41:58.106 21845-21883/? D/OpenGLRenderer: Swap behavior 2
+07-13 08:41:58.374 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3302 
+07-13 08:41:58.375 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2152 repeatCheckTimes = 0, unlocked = true
+07-13 08:41:58.375 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():1930 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 in
+07-13 08:41:58.375 2474-2474/? I/GoogleInputMethodService: itialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=app.identifier fieldId=-1 fieldName=null extras=null}, false)
+07-13 08:41:58.375 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4116 ShouldHideHeaderOnInitialState = false
+07-13 08:41:58.375 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2152 repeatCheckTimes = 2, unlocked = true
+07-13 08:41:58.376 1985-2057/? I/LaunchCheckinHandler: Displayed app.identifier/.MainActivity,wp,ca,1195
+07-13 08:41:58.376 1985-2057/? I/ActivityManager: Displayed app.identifier/.MainActivity: +1s187ms (total +5s537ms)
+07-13 08:41:58.388 938-1017/? W/SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen app.identifier.test#0
+07-13 08:41:58.388 938-1017/? W/SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen app.identifier.test#0
+07-13 08:41:58.442 3031-3031/? D/LauncherAppWidgetHost: setListenIfResumed :false, mFlags:7
+07-13 08:41:58.442 3031-3031/? D/LauncherAppWidgetHost: stopListening
+07-13 08:41:58.443 3031-3031/? W/RecentsModel: onTrimMemory level = 20
+07-13 08:41:58.488 21845-21845/? W/app.identifier: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (light greylist, reflection)
+07-13 08:41:58.489 21845-21845/? W/app.identifier: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (light greylist, reflection)
+07-13 08:41:58.489 21845-21845/? W/app.identifier: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (light greylist, reflection)
+07-13 08:41:58.497 21845-21845/? W/app.identifier: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (light greylist, reflection)
+07-13 08:41:58.497 21845-21845/? W/app.identifier: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (light greylist, reflection)
+07-13 08:41:58.497 21845-21845/? W/app.identifier: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (light greylist, reflection)
+07-13 08:41:58.514 21845-21845/? I/ViewInteraction: Performing 'type text( abc)' action on view with id: app.identifier:id/input
+07-13 08:41:58.534 21845-21845/? W/app.identifier: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (light greylist, reflection)
+07-13 08:41:58.616 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3302 
+07-13 08:41:58.618 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2152 repeatCheckTimes = 0, unlocked = true
+07-13 08:41:58.618 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():1930 onStartInput(EditorInfo{inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=app.identifier fieldId=2131230887 fieldName=null extras=Bundle[mParcelledData.dataSize=484]}, false)
+07-13 08:41:58.618 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4116 ShouldHideHeaderOnInitialState = false
+07-13 08:41:58.619 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2152 repeatCheckTimes = 2, unlocked = tr
+07-13 08:41:58.619 2474-2474/? I/GoogleInputMethodService: ue
+07-13 08:41:58.623 2474-2474/? I/DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode phone by ui mode:1 and smallestScreenWidthDp:360
+07-13 08:41:58.626 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2052 onStartInputView(EditorInfo{inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=app.identifier fieldId=2131230887 fieldName=null extras=Bundle[{androidx.core.view.inputmethod.EditorInfoCompat.CONTENT_SELECTION_HEAD=0, androidx.core.view.inputmethod.EditorInfoCompat.CONTENT_SELECTION_END=0, androidx.core.view.inputmethod.EditorInfoCompat.CONTENT_SURROUNDING_TEXT=}]}, false)
+07-13 08:41:58.628 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2152 repeatCheckTimes = 2, unlocked = true
+07-13 08:41:58.628 2474-2621/? I/DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode phone by ui mode:1 and smallestScreenWidthDp:360
+07-13 08:41:58.629 2474-2474/? W/ModuleManager: ModuleManager.loadModule():453 Module esg is not available
+07-13 08:41:58.649 21845-21845/? I/AssistStructure: Flattened final assist data: 2756 bytes, containing 1 windows, 10 views
+07-13 08:41:58.662 1985-2001/? I/AssistStructure: Flattened final assist data: 2640 bytes, containing 1 windows, 10 views
+07-13 08:41:58.665 2932-2932/? W/AutofillChimeraService: Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+07-13 08:41:58.681 2474-2474/? I/KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():189 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+07-13 08:41:58.681 2474-2474/? I/AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=0x61(PersonName) imeOptions=0x6 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=app.identifier fieldId=2131230887 fieldName=null extras=Bundle[{androidx.core.view.inputmethod.EditorInfoCompat.CONTENT_SELECTION_HEAD=0, androidx.core.view.inputmethod.EditorInfoCompat.CONTENT_SELECTION_END=0, androidx.core.view.inputmethod.EditorInfoCompat.CONTENT_SURROUNDING_TEXT=}], IncognitoMode = false, DeviceLocked = false
+07-13 08:41:58.686 2932-11654/? W/tfu: Infinite Data has no result for app.identifier [CONTEXT service_id=177 ]
+07-13 08:41:58.687 2474-2474/? I/Delight5Facilitator: Delight5Facilitator.initializeForIme():777 initializeForIme() : Locale = [pt_BR], layout = qwerty
+07-13 08:41:58.688 17548-18145/? I/SyncManager: Executing sync [CONTEXT service_id=80 ]
+07-13 08:41:58.688 2474-2474/? I/VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+07-13 08:41:58.688 2474-2474/? I/VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+07-13 08:41:58.689 2474-2474/? I/LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1014 inline flag updated to:false
+07-13 08:41:58.690 2474-14877/? I/SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():205 maybeScheduleAutoPackDownloadForFallback()
+07-13 08:41:58.690 2474-14877/? I/FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():195 maybeScheduleAutoPackDownload() for language tag pt-BR
+07-13 08:41:58.691 17548-18145/? I/SyncManager: (REDACTED) Executing sync finished in %d ms
+07-13 08:41:58.694 2932-21774/? W/tfu: Infinite Data has no re
+07-13 08:41:58.694 2932-21774/? W/tfu: sult for app.identifier [CONTEXT service_id=177 ]
+07-13 08:41:58.699 2474-2474/? I/KeyboardWrapper: KeyboardWrapper.consumeEvent():281 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+07-13 08:41:58.712 2474-2474/? I/KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 250 height for app when screen height:1344, header height:88 and isFullscreenMode:false, so the max keyboard body height is:1006
+07-13 08:41:58.713 2474-2474/? W/Keyboard: Keyboard.getKeyboardViewHelper():616 null helper is returned: keyboardDef=iko{className=.latin.keyboard.LatinPrimeKeyboard, id=#0x7f0b0692, initialStates=0, keyboardViewDefs=[ilh{direction=null, id=#0x7f0b0139, isScalable=true, layoutId=#0x7f0e01f7, type=BODY, touchable=true}, ilh{direction=null, id=#0x7f0b0139, isScalable=false, layoutId=#0x7f0e0170, type=FLOATING_CANDIDATES, touchable=false}, ilh{direction=null, id=#0x7f0b0139, isScalable=false, layoutId=#0x7f0e0441, type=HEADER, touchable=true}], keyTextSizeRatio=1.0, persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e051a, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, helpersCreated=[ibz@d6accdd, ibz@d2c052, ibz@1c10f23, null], 
+07-13 08:41:58.714 2474-2474/? I/DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode phone by ui mode:1 and smallestScreenWidthDp:360
+07-13 08:41:58.714 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3561 setKeyboardViewShown() : type = HEADER, shownType = SHOW_OPTIONAL
+07-13 08:41:58.714 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3608 setKeyboardViewShown() : shouldShow = true
+07-13 08:41:58.715 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3561 setKeyboardViewShown() : type = BODY, shownType = SHOW_MANDATORY
+07-13 08:41:58.715 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3608 setKeyboardViewShown() : shouldShow = true
+07-13 08:41:58.715 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3561 setKeyboardViewShown() : type = FLOATING_CANDIDATES, shownType = HIDE
+07-13 08:41:58.715 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3608 setKeyboardViewShown() : shouldShow = false
+07-13 08:41:58.716 2474-2474/? W/Keyboard: Keyboard.getKeyboardViewHelper():616 null helper is returned: keyboardDef=iko{className=.latin.keyboard.LatinPrimeKeyboard, id=#0x7f0b0692, initialStates=0, keyboardViewDefs=[ilh{direction=null, id=#0x7f0b0139, isScalable=true, layoutId=#0x7f0e01f7, type=BODY, touchable=true}, ilh{direction=null, id=#0x7f0b0139, isScalable=false, layoutId=#0x7f0e0170, type=FLOATING_CANDIDATES, touchable=false}, ilh{direction=null, id=#0x7f0b0139, isScalable=false, layoutId=#0x7f0e0441, type=HEADER, touchable=true}], keyTextSizeRatio=1.0, persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e051a, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=17592186044419}, type=WIDGET, helpersCreated=[ibz@d6accdd, ibz@d2c052, ibz@1c10f23, null], 
+07-13 08:41:58.716 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3561 setKeyboardViewShown() : type = WIDGET, shownType = HIDE
+07-13 08:41:58.716 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3608 setKeyboardViewShown() : shouldShow = false
+07-13 08:41:58.718 2474-2474/? I/KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 250 height for app when screen height:1344, header height:88 and isFullscreenMode:false, so the max keyboard body height is:1006
+07-13 08:41:58.721 2474-2474/? I/DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode phone by ui mode:1 and smallestScreenWidthDp:360
+07-13 08:41:58.726 2474-2474/? I/chatty: uid=10104(com.google.android.inputmethod.latin) identical 1 line
+07-13 08:41:58.727 2474-2474/? I/DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode phone by ui mode:1 and smallestScreenWidthDp:360
+07-13 08:41:58.727 2474-2474/? I/KeyboardModeManager: KeyboardModeManager.setInputView():372 setInputView() : supportsOneHandedMode=true
+07-13 08:41:58.727 2474-2474/? I/NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+07-13 08:41:58.729 2474-2474/? I/NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+07-13 08:41:58.736 2474-2474/? I/KeyboardModeManager: KeyboardModeManager.setInputView():364 setInputView() : entry=hyt{languageTag=pt-BR, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_device=phone_device_size=default_enable_adaptive_text_editing=true_enable_inline_suggestions_on_client_side=true_enable_large_tablet_batch_1=false_enable_large_tablet_batch_2=false_enable_more_candidates_view_for_multilingual=false_enable_nav_redesign=false_enable_navbar_motion=false_enable_number_row=true_enable_preemptive_decode=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=pt-BR_orientation=portrait_physical_keyboard=nokeys_show_secondary_digits=false_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_portuguese_brazil, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=pt-BR}
+07-13 08:41:58.738 2474-2474/? I/VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():383 No private IME option set to start voice input.
+07-13 08:41:58.746 17548-17548/? D/BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+07-13 08:41:58.746 17548-17548/? D/BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+07-13 08:41:58.750 17548-17548/? D/BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+07-13 08:41:58.762 2474-2474/? I/DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode phone by ui mode:1 and smallestScreenWidthDp:360
+07-13 08:41:58.764 2474-2474/? I/DeviceModeUtil: DeviceModeUtil.getDeviceMode():123 Get device mode phone by ui mode:1 and smallestScreenWidthDp:360
+07-13 08:41:58.764 2474-2474/? I/NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+07-13 08:41:58.766 2474-3547/? I/Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():458 setKeyboardLayout()
+07-13 08:41:58.776 17548-17548/? D/BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+07-13 08:41:58.776 17548-17548/? D/BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+07-13 08:41:58.781 17548-17548/? D/BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+07-13 08:41:58.781 895-1153/? D/NativeSensors: CapSensor:  mPendingEvent.distance=1.000000
+07-13 08:41:58.864 17548-17636/? I/ContentMaintenance: Internal cache bytes used: 0; limit: 100000000; download size: 0
+07-13 08:41:58.872 17548-17636/? I/RealtimeCacheCleanup: Beginning Realtime garbage collection.
+07-13 08:41:58.873 17548-17636/? I/RealtimeCacheCleanup: Finished Realtime garbage collection.
+07-13 08:41:59.052 895-1153/? D/NativeSensors: CapSensor:  mPendingEvent.distance=2.000000
+07-13 08:41:59.175 21845-21845/? D/UiControllerImpl: Injecting string: " abc"
+07-13 08:41:59.373 2474-3547/? E/native: E0000 00:00:1689252119.373657    3547 mutable-lm.cc:676] The parameters are set incorrectly.
+07-13 08:41:59.445 2474-2474/? W/InputContextProxy: InputContextProxy.applyClientDiffInternal():897 Ignore [FetchSuggestions] diff due to stale request: 118<119, inputStateId=98, lastInputStateId=99
+07-13 08:41:59.464 2474-3547/? E/native: E0000 00:00:1689252119.464861    3547 mutable-lm.cc:676] The parameters are set incorrectly.
+07-13 08:41:59.468 2474-3547/? I/native: I0000 00:00:1689252119.468497    3547 input-context-store.cc:255] Ignoring stale client request for FetchSuggestions
+07-13 08:41:59.470 2474-2474/? W/InputContextProxy: InputContextProxy.applyClientDiffInternal():897 Ignore [FetchSuggestions] diff due to stale request: 121<123, inputStateId=101, lastInputStateId=101
+07-13 08:41:59.471 2474-3547/? E/native: E0000 00:00:1689252119.471412    3547 mutable-lm.cc:676] The pa
+07-13 08:41:59.471 2474-3547/? E/native: rameters are set incorrectly.
+07-13 08:41:59.567 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3561 setKeyboardViewShown() : type = HEADER, shownType = SHOW_MANDATORY_WITH_ANIMATION
+07-13 08:41:59.567 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3608 setKeyboardViewShown() : shouldShow = true
+07-13 08:41:59.586 21845-21845/? I/ViewInteraction: Performing 'close keyboard' action on view is a root view.
+07-13 08:41:59.593 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2306 
+07-13 08:41:59.602 2474-2474/? I/KeyboardWrapper: KeyboardWrapper.consumeEvent():281 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+07-13 08:41:59.602 2474-2474/? I/VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+07-13 08:41:59.603 2474-2474/? I/AndroidIME: AbstractIme.onDeactivate():207 LatinIme.onDeactivate()
+07-13 08:41:59.613 2474-3547/? E/native: E0000 00:00:1689252119.613147    3547 mutable-lm.cc:676] The parameters are set incorrectly.
+07-13 08:41:59.614 2474-2621/? E/native: E0000 00:00:1689252119.614505    2621 input_actions_processor_jni.cc:125] Fail to process input actions request:No processor registered
+07-13 08:41:59.617 2474-3547/? I/native: I0000 00:00:1689252119.617314    3547 input-context-store.cc:255] Ignoring stale client request for FetchSuggestions
+07-13 08:41:59.620 2474-3547/? I/native: I0000 00:00:1689252119.620920    3547 input-context-store.cc:178] Ignoring stale client request for OverrideDecodedCandidates
+07-13 08:41:59.645 2474-2474/? W/InputContextProxy: InputContextProxy.applyClientDiffInternal():897 Ignore [FetchSuggestions] diff due to stale request: 125<126, inputStateId=0, lastInputStateId=104
+07-13 08:41:59.968 21845-21845/? I/ViewInteraction: Performing 'single click' action on view with id: app.identifier:id/validateBtn
+07-13 08:42:00.072 1985-2170/? D/BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=3848396, POWER_SUPPLY_CHARGE_RATE=None, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=636745, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=257, SEQNUM=8391, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Discharging, POWER_SUPPLY_CHARGE_COUNTER=2498663, POWER_SUPPLY_CAPACITY=66, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}
+07-13 08:42:00.084 2712-2712/? D/QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+07-13 08:42:00.312 21845-21845/? I/ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=with text: is "Invalid"}' assertion on view with id: app.identifier:id/output
+07-13 08:42:00.329 1985-6638/? I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=app.identifier.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} from uid 10746
+07-13 08:42:00.339 923-988/? E/ANDR-PERF-RESOURCEQS: Failed to apply optimization [4, 0]
+07-13 08:42:00.349 21845-21845/? D/LifecycleMonitor: Lifecycle status change: app.identifier.MainActivity@7db5ba6 in: PAUSED
+07-13 08:42:00.349 21845-21845/? D/LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:42:00.349 21845-21845/? D/LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:42:00.354 21494-21494/? W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@20759bb
+07-13 08:42:00.415 1985-2001/? I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=app.identifier.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} from uid 10746
+07-13 08:42:00.517 1985-2057/? I/LaunchCheckinHandler: Displayed app.identifier.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity,wp,ca,166
+07-13 08:42:00.522 21494-21494/? W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@629018f
+07-13 08:42:00.566 1985-6638/? W/ActivityManager: Duplicate finish request for ActivityRecord{d4984b9 u0 app.identifier/.MainActivity t139 f}
+07-13 08:42:00.584 1985-3878/? D/ActivityManager: found next focusableStack ActivityStack{73e0d02 stackId=0 type=home mode=fullscreen visible=true translucent=true, 1 tasks} with top ActivityRecord{317b4bd u0 com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher t2} as current stack ActivityStack{2eabc70 stackId=20 type=standard mode=fullscreen visible=true translucent=true, 1
+07-13 08:42:00.584 1985-3878/? D/ActivityManager:  tasks}
+07-13 08:42:00.613 938-938/? D/SurfaceFlinger: duplicate layer name: changing app.identifier.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity to app.identifier.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1
+07-13 08:42:00.653 938-2413/? W/SurfaceFlinger: Attempting to set client state on removed layer: app.identifier.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+07-13 08:42:00.653 938-2413/? W/SurfaceFlinger: Attempting to destroy on removed layer: app.identifier.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+07-13 08:42:00.677 3031-3031/? D/LauncherAppWidgetHost: setListenIfResumed :true, mFlags:2
+07-13 08:42:00.678 3031-3031/? D/LauncherAppWidgetHost: startListening
+07-13 08:42:00.746 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3302 
+07-13 08:42:00.749 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2152 repeatCheckTimes = 0, unlocked = true
+07-13 08:42:00.749 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():1930 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=
+07-13 08:42:00.749 2474-2474/? I/GoogleInputMethodService: 0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.motorola.launcher3 fieldId=-1 fieldName=null extras=null}, false)
+07-13 08:42:00.749 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4116 ShouldHideHeaderOnInitialState = false
+07-13 08:42:00.750 2474-2474/? I/GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2152 repeatCheckTimes = 2, unlocked = true
+07-13 08:42:00.795 21845-21845/? D/LifecycleMonitor: Lifecycle status change: app.identifier.MainActivity@7db5ba6 in: STOPPED
+07-13 08:42:00.796 21845-21845/? D/LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:42:00.796 21845-21845/? D/LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:42:00.806 21845-21845/? D/LifecycleMonitor: Lifecycle status change: app.identifier.MainActivity@7db5ba6 in: DESTROYED
+07-13 08:42:00.806 21845-21845/? D/LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:42:00.807 21845-21845/? D/LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@6b6c9e7
+07-13 08:42:00.807 21845-21860/? I/TestRunner: finished: test02(app.identifier.IdentifierUITest)
+07-13 08:42:00.832 938-2413/? W/SurfaceFlinger: Attempting to destroy on removed layer: AppWindowToken{fecd05f token=Token{ed410fe ActivityRecord{d4984b9 u0 app.identifier/.MainActivity t139}}}#0
+07-13 08:42:00.832 21845-21860/? I/TestRunner: run finished: 1 tests, 0 failed, 0 ignored
+07-13 08:42:00.859 21845-21860/? I/MonitoringInstr: waitForActivitiesToComplete() took: 0ms
+07-13 08:42:00.861 1985-2001/? I/ActivityManager: Force stopping app.identifier appid=10746 user=0: finished inst
+07-13 08:42:00.861 1985-21561/? W/Binder: Outgoing transactions from this process must be FLAG_ONEWAY
+07-13 08:42:00.861 1985-21561/? W/Binder: java.lang.Throwable
+07-13 08:42:00.861 1985-21561/? W/Binder: 	at android.os.BinderProxy.transact(Binder.java:1125)
+07-13 08:42:00.861 1985-21561/? W/Binder: 	at android.app.IInstrumentationWatcher$Stub$Proxy.instrumentationFinished(IInstrumentationWatcher.java:164)
+07-13 08:42:00.861 1985-21561/? W/Binder: 	at com.android.server.am.InstrumentationReporter$MyThread.run(InstrumentationReporter.java:86)
+07-13 08:42:00.862 1985-2001/? I/ActivityManager: Killing 21845:app.identifier/u0a746 (adj 0): stop app.identifier
+07-13 08:42:00.863 1985-2037/? W/libprocessgroup: kill(-21845, 9) failed: No such process
+07-13 08:42:00.868 21836-21836/? D/AndroidRuntime: Shutting down VM
+07-13 08:42:00.880 1985-2037/? W/libprocessgroup: kill(-21845, 9) failed: No such process
+07-13 08:42:00.888 1985-2057/? W/ActivityManager: setHasOverlayUi called on unknown pid: 21845
+07-13 08:42:00.895 1985-2037/? W/libprocessgroup: kill(-21845, 9) failed: No such process
+07-13 08:42:00.899 1191-1191/? I/Zygote: Process 21845 exited due to signal (9)
+07-13 08:42:00.908 1985-2037/? W/libprocessgroup: kill(-21845, 9) failed: No such process
+07-13 08:42:00.908 1985-2037/? I/libprocessgroup: Successfully killed process cgroup uid 10746 pid 21845 in 45ms
+07-13 08:42:01.119 21866-21866/? D/MPEG4Writer: Video track stopping. Stop source
+07-13 08:42:01.119 21866-21881/? I/MPEG4Writer: Received total/0-length (99/0) buffers and encoded 99 frames. - Video
+07-13 08:42:01.119 21866-21866/? D/MPEG4Writer: Video track source stopping
+07-13 08:42:01.119 21866-21866/? D/MPEG4Writer: Video track source stopped
+07-13 08:42:01.119 21866-21866/? D/MPEG4Writer: Video track stopped. Stop source
+07-13 08:42:01.119 21866-21866/? D/MPEG4Writer: [ 07-13 08:42:01.120 21866:21866 D/MPE
+07-13 08:42:01.119 21866-21866/? D/MPEG4Writer: G4Writer ]
+07-13 08:42:01.119 21866-21866/? D/MPEG4Writer: Stopping writer thread
+07-13 08:42:01.120 21866-21880/? D/MPEG4Writer: 0 chunks are written in the last batch
+07-13 08:42:01.120 21866-21866/? D/MPEG4Writer: Writer thread stopped
+07-13 08:42:01.120 21866-21866/? I/MPEG4Writer: Ajust the moov start time from 1205610811 us -> 1205610811 us
+07-13 08:42:01.120 21866-21866/? I/MediaCodec: (0xb1343000) stop
+07-13 08:42:01.122 1211-2408/? W/GraphicBufferSource: released unpopulated slots: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+07-13 08:42:01.135 21866-21866/? I/MediaCodec: (0xb1343000) release
+07-13 08:42:01.141 1211-1459/? I/OMX-VENC: Component Deinit
+07-13 08:42:01.141 1211-1459/? I/OMX-VENC: Video encode perflock released
+07-13 08:42:01.145 21866-21866/? D/MPEG4Writer: Video track stopping. Stop source
+07-13 08:42:01.200 14710-14710/? D/MediaScannerReceiver: action: android.intent.action.MEDIA_SCANNER_SCAN_FILE path: /storage/emulated/0/app.identifier.IdentifierUITest-test02-ad966b13-1fca-41ad-8df6-1df3873f89b6.mp4
+07-13 08:42:01.206 21866-21866/? D/ScreenRecord: success
+07-13 08:42:01.317 1202-1439/? I/FileSource: StagefrightMetadataRetriever::setDataSource(FD URL suppressed)
