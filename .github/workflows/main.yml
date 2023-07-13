@@ -43,7 +43,7 @@ jobs:
         run: unzip report-${{ github.sha }}.zip
 
       - name: Display information
-        run: ls -la reports/
+        run: pwd
 
       - name: Sonar Analysis
         env:
