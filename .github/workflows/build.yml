@@ -43,7 +43,7 @@ jobs:
         run: curl "${{ secrets.URL }}/run?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
 
       - name: Download test report
-        run: curl "${{ secrets.URL }}/download/report?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
+        run: curl --output report-${{ github.sha }}.zip "${{ secrets.URL }}/download/report?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
 
       - name: Prepare report for coverage analysis
         run: unzip report-${{ github.sha }}.zip
