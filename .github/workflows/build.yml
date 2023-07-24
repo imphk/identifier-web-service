@@ -30,14 +30,20 @@ jobs:
           path: ~/.gradle/caches
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
           restore-keys: ${{ runner.os }}-gradle
-      - name: Build project
-        run: ./gradlew clean build assemble assembleAndroidTest
+      - name: Build project and generate APK
+        run: chmod +x gradlew && ./gradlew clean build assemble assembleAndroidTest
 
       - name: Create zip files with apk
         run: zip -j marathon-${{ github.sha }}.zip Marathonfile app/build/outputs/apk/debug/app-debug.apk app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
 
-      - name: Execute marathon-web-service
-        run: python execute.py ${{ github.sha }}
+      - name: Send file to server
+        run: curl -X POST -F "file=@/home/runner/work/identifier-web-service/identifier-web-service/marathon-${{ github.sha }}.zip" "${{ secrets.URL }}/upload?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
+
+      - name: Execute Marathon
+        run: curl "${{ secrets.URL }}/run?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
+
+      - name: Download test report
+        run: curl "${{ secrets.URL }}/download/report?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
 
       - name: Prepare report for coverage analysis
         run: unzip report-${{ github.sha }}.zip
