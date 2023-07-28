@@ -34,7 +34,7 @@ jobs:
         run: chmod +x gradlew && ./gradlew clean build assemble assembleAndroidTest
 
       - name: Create zip files with apk
-        run: zip -j marathon-${{ github.sha }}.zip Marathonfile app/build/outputs/apk/debug/app-debug.apk app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+        run: zip -j marathon-${{ github.sha }}.zip Marathonfile app/build/outputs/apk/debug/*.apk app/build/outputs/apk/androidTest/debug/*.apk
 
       - name: Send file to server
         run: curl -X POST -F "file=@/home/runner/work/identifier-web-service/identifier-web-service/marathon-${{ github.sha }}.zip" "${{ secrets.URL }}/upload?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
