@@ -37,13 +37,13 @@ jobs:
         run: zip -j marathon-${{ github.sha }}.zip Marathonfile app/build/outputs/apk/debug/*.apk app/build/outputs/apk/androidTest/debug/*.apk
 
       - name: Send file to server
-        run: curl -X POST -F "file=@/home/runner/work/identifier-web-service/identifier-web-service/marathon-${{ github.sha }}.zip" "${{ secrets.URL }}/upload?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
+        run: curl -X POST -F "file=@/home/runner/work/identifier-web-service/identifier-web-service/marathon-${{ github.sha }}.zip" "${{ secrets.URL }}/api/upload?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
 
       - name: Execute Marathon
-        run: curl "${{ secrets.URL }}/run?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
+        run: curl "${{ secrets.URL }}/api/run?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
 
       - name: Download test report
-        run: curl --output report-${{ github.sha }}.zip "${{ secrets.URL }}/download/report?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
+        run: curl --output report-${{ github.sha }}.zip "${{ secrets.URL }}/api/download/report?api_key=${{ secrets.API_KEY }}&id=${{ github.sha }}"
 
       - name: Prepare report for coverage analysis
         run: unzip report-${{ github.sha }}.zip
