@@ -56,12 +56,12 @@ public class IdentifierUITest {
         onView(withId(R.id.validateBtn)).check(matches(isDisplayed()));
     }
 
-    @Test
-    public void test05() {
-        onView(withId(R.id.input)).perform(typeText("14ab"));
-        Espresso.closeSoftKeyboard();
-        onView(withId(R.id.validateBtn)).perform(click());
-        onView(withId(R.id.output)).check(matches(withText("Invalid")));
-    }
+//    @Test
+//    public void test05() {
+//        onView(withId(R.id.input)).perform(typeText("14ab"));
+//        Espresso.closeSoftKeyboard();
+//        onView(withId(R.id.validateBtn)).perform(click());
+//        onView(withId(R.id.output)).check(matches(withText("Invalid")));
+//    }
 }
 

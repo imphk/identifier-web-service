@@ -45,22 +45,6 @@ task jacocoTestReport(type: JacocoReport) {
     }
 }
 
-//task jacocoTestReport(type: JacocoReport, dependsOn: "testDebugUnitTest") {
-//    group = "Verification" // existing group containing tasks for generating linting reports etc.
-//    description = "Generate Jacoco coverage reports for the debug build."
-//    reports {
-//        xml.enabled true
-//    }
-//    executionData.from = "${project.buildDir}/outputs/unit_test_code_coverage/debugUnitTest/testDebugUnitTest.exec"
-//    classDirectories.from = "$project.buildDir/intermediates/javac/debug"
-//    sourceDirectories.from = "${project.projectDir}/src/main/java"
-//}
-
-//task jacocoTestReport(type: JacocoReport) {
-//    reports {
-//        xml.enabled true
-//    }
-//}
 
 android {
     compileSdkVersion 30
